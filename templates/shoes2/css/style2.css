@@ -1,0 +1,93 @@
+a { color: #8c0a0a; }
+a:hover, a:active, a:focus { color: #8c0a0a; }
+h1, h2, h3, h4, h5 { color:#b80e0e; }
+
+
+#gk-mainnav > div.gk-menu > ul { background: transparent url('../images/style2/menu_bg.png') no-repeat left bottom; }
+#gk-mainnav > div.gk-menu > ul > li > a > span { background: transparent url('../images/style2/menu_separator.png') no-repeat right bottom; }
+#gk-mainnav > div.gk-menu > ul > li.active > a,
+#gk-mainnav > div.gk-menu > ul > li:hover > a { background: transparent url('../images/style2/menu_bg.png') no-repeat -459px top; }
+#gk-mainnav > div.gk-menu > ul > li.active:first-child > a,
+#gk-mainnav > div.gk-menu > ul > li:hover:first-child > a { background: transparent url('../images/style2/menu_bg.png') no-repeat left top; }
+#gk-mainnav > div.gk-menu > ul > li.last:hover > a > span,
+#gk-mainnav > div.gk-menu > ul > li.last.active > a > span,
+#gk-mainnav > div.gk-menu > ul > li.active > a > span,
+#gk-mainnav > div.gk-menu > ul > li:hover > a > span { background: transparent url('../images/style2/menu_separator.png') no-repeat right top; }
+#gk-mainnav li:hover + li.active > a,
+#gk-mainnav li.active + li:hover > a { background: transparent url('../images/style2/menu_bg.png') no-repeat -460px top!important; }
+#gk-mainnav li:first-child:hover + li.active > a,
+#gk-mainnav li:first-child.active + li:hover > a { background: transparent url('../images/style2/menu_bg.png') no-repeat -459px top!important; }
+
+.gk-menu ul.level0 div.childcontent ul li:hover,
+.gk-menu ul.level0 div.childcontent ul li:hover>a { background: #9b0e0e;  }
+
+#gk-subnav { background: #cb1010; }
+#gk-subnav>div>ul>li>a:hover,
+#gk-subnav>div>ul>li:hover>a { background: #8c0a0a;}
+#gk-subnav>div>ul ul { background: #8c0a0a;}
+#gk-subnav>div>ul ul li { border-top: 1px solid #9b0e0e; }
+.moduletable_menu ul.menu>li.parent>a { background: transparent url('../images/style2/menu_plus.png') no-repeat 12px 11px; 
+vertical-align: middle;
+height: 33px;
+display: table-cell;
+}
+.moduletable_menu ul.menu>li:hover>a{ color:#b80e0e; }
+.moduletable_menu ul.menu>li.active { background:#c91010; border:1px solid #8c0e0e; border-bottom:none; }
+.moduletable_content>div>ul li:hover>a,
+.moduletable_content>ul li:hover>a{ color:#b80e0e; }
+
+.moduletable.color3 > h3 { background: transparent url('../images/style2/moduletable_color3_left.png') no-repeat left 0; }
+.moduletable.color3 > h3 span { background: transparent url('../images/style2/moduletable_color3_right.png') no-repeat right 0; }
+
+/* joomla.css */
+#gk_product_tabs li,
+.adminform button,
+#adminForm button,
+.button,
+a.readon,
+input[type="submit"],
+input[type="button"] { background:transparent url('../images/style2/btn.png') repeat-x 0 bottom; }
+.adminform button:hover,
+.adminform button:focus,
+#adminForm button:hover,
+#adminForm button:focus,
+.button:hover,
+.button:focus,
+a.readon:hover,
+a.readon:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus { background-position: 0 top; border-color: #b20e0e; }
+.componentheading,
+
+
+ul.pagination li:hover { background:#b80e0e; border:1px solid #9b0e0e; }
+
+#mod_search_button { background: transparent url('../images/style2/search_btn.png') no-repeat center -28px; }
+#mod_search_button:hover { background-position: center top; border: 1px solid #b20e0e; }
+
+/* gk_stuff.css */
+
+.nsp_vm .cart_form input[type=submit]:hover { background-position: 0 bottom; }
+.gk_is_prev,
+.gk_is_next { border:1px solid #9b0e0e; background:#cb1010 url('../images/style2/is_bg.png') repeat-x 0 center; }
+.gk_is_prev_btn,
+.gk_is_next_btn { background:transparent url('../images/style2/is_arrows.png') no-repeat 0 0; }
+.gk_is_next_btn { background:transparent url('../images/style2/is_arrows.png') no-repeat -48px 0; }
+.gk_is_prev_btn:hover { background-position:-96px 0; }
+.gk_is_next_btn:hover { background-position:-144px 0; }
+
+.moduletable_content table#cart #total_price { color: #b80e0e; }
+.color1 .moduletable_content table#cart #total_price,
+
+#gk-items { color:#9b0e0e; }
+
+.addtocart_button,
+#cart_form input[type=submit]{ background:url('../images/style2/cart_btn.png') no-repeat left -1px!important; }
+.addtocart_button:hover, #cart_form input[type=submit]:hover{ background-position: left bottom!important; }
+
+.k2CategoriesListBlock ul.level0>li:hover>a{ color:#b80e0e; }
+
+#gk_product_tabs li:hover,
+#gk_product_tabs li.gk_product_tab_active { background: #cb1010 !important; border-color: #cb1010; }

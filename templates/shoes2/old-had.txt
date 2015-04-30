@@ -1,0 +1,117 @@
+ <title>Test site</title>
+  <link href="templates/general/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+  <link rel="stylesheet" href="templates/general/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="templates/general/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="templates/general/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="templates/general/system/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="templates/general/css/addons.css" type="text/css" />
+  <link rel="stylesheet" href="templates/general/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="templates/general/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="templates/general/css/joomla.css" type="text/css" />
+
+  <link rel="stylesheet" href="templates/general/css/gk_stuff.css" type="text/css" />
+  <link rel="stylesheet" href="templates/general/css/typo.css" type="text/css" />
+  <link rel="stylesheet" href="templates/general/css/css3.css" type="text/css" />
+  <link rel="stylesheet" href="templates/general/css/style1.css" type="text/css" />
+  <link rel="stylesheet" href="templates/general/css/vm/vm.css" type="text/css" />
+  <script type="text/javascript" src="templates/general/magazin/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="templates/general/js/domready_fix.js"></script>
+  <script type="text/javascript" src="http://test2.ru/magazin/components/com_k2store/js/k2store.js"></script>
+
+  <script type="text/javascript" src="templates/general/magazin/media/system/js/modal.js"></script>
+  <script type="text/javascript" src="http://test2.ru/magazin/components/com_k2/js/k2.js"></script>
+  <script type="text/javascript" src="templates/general/magazin/media/system/js/caption.js"></script>
+  <!--<script type="text/javascript" src="templates/general/js/gk.script.js"></script> -->
+  <script type="text/javascript" src="http://test2.ru/magazin/modules/mod_news_pro_gk4/interface/scripts/engine-mootools-11.js"></script>
+  <script type="text/javascript" src="templates/general/js/gk_image_show.js"></script>
+
+  <script type="text/javascript">
+var k2storeURL = 'http://test2.ru/xxx.viamarkets.com/';
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+
+			$$('a.modal').each(function(el) {
+				el.addEvent('click', function(e) {
+					new Event(e).stop();
+					SqueezeBox.fromElement(el);
+				});
+			});
+		});
+var K2RatingURL = 'http://test2.ru/xxx.viamarkets.com/';
+  </script>
+
+<script>
+	function showContent(link, content) {
+
+		var cont = document.getElementById(content);
+		var loading = document.getElementById('loading');
+
+		cont.innerHTML = loading.innerHTML;
+
+		var http = createRequestObject();					// создаем ajax-объект
+		if( http ) {
+			http.open('get', link);							// инициируем загрузку страницы
+			http.onreadystatechange = function () {			// назначаем асинхронный обработчик события
+				if(http.readyState == 4) {
+					cont.innerHTML = http.responseText;		// присваиваем содержимое
+				}
+			}
+			http.send(null);    
+		} else {
+			document.location = link;	// если ajax-объект не удается создать, просто перенаправляем на адрес
+		}
+	}
+
+	// создание ajax объекта
+	function createRequestObject() {
+		try { return new XMLHttpRequest() }
+		catch(e) {
+			try { return new ActiveXObject('Msxml2.XMLHTTP') }
+			catch(e) {
+				try { return new ActiveXObject('Microsoft.XMLHTTP') }
+				catch(e) { return null; }
+			}
+		}
+	}
+</script>
+
+
+<!--[if IE 8.0]><link rel="stylesheet" href="templates/general/css/ie8.css" type="text/css" /><![endif]-->
+<!--[if IE 7.0]><link rel="stylesheet" href="templates/general/css/ie.css" type="text/css" /><![endif]-->
+<!--[if IE 7.0]><style>.clearfix { display: inline-block; } /* IE7xhtml*/</style><![endif]-->
+
+<script type="text/javascript">
+var siteurl='http://test2.ru/xxx.viamarkets.com/';
+var tmplurl='http://test2.ru/xxx.viamarkets.com/templates/general';
+</script>
+
+<link href="templates/general/css/menu/split.css" rel="stylesheet" type="text/css" /><script src="templates/general/js/menu/split.js" language="javascript" type="text/javascript"></script>
+
+<style type="text/css">	
+
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+    #gk-mainnav .level0>li>a,
+	.itemRelated h3, 
+	.itemAuthorLatest h3 {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+    .moduletable_menu h3,
+    .moduletable_text h3,
+    .moduletable h3,
+    .gk_is_text h4 {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+</style>
+<!--Width of template -->
+<style type="text/css">
+.main { width: 910px; margin: 0 auto; }
+</style>
+
+</head>

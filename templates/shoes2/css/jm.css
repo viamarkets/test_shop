@@ -1,0 +1,93 @@
+input[type=text],
+input[type=password],
+select,
+textarea { background:#fff; height: 26px; border:1px solid #9b9b9b; border-bottom:1px solid #d8d8d8; border-right:1px solid #d8d8d8; color:#383838; padding:0 5px; }
+input[type=radio],
+input[type=checkbox] { background:transparent!important; border: none!important; height: inherit; }
+#gk_product_tabs li,
+.adminform button,
+#adminForm button,
+.button,
+a.readon,
+input[type="submit"],
+input[type="button"] { font-family:Arial, Verdana, sans-serif;  display:block; border: 1px solid #d1d1d1; float: left; height:26px !important; line-height: 26px; color:#383838; background:transparent url('../images/style1/btn.png') repeat-x 0 bottom;
+padding:0 8px; margin: 3px; font-size: 11px; font-weight: bold; }
+.adminform button:hover,
+.adminform button:focus,
+#adminForm button:hover,
+#adminForm button:focus,
+.button:hover,
+.button:focus,
+a.readon:hover,
+a.readon:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus { background-position: 0 top; color: #fff; border-color: #466a11; cursor:pointer; text-decoration: none }
+input[type=checkbox], .checkbox, input[type=radio], .radio { height:auto !important; }
+
+a.contentpagetitle,
+a.contentpagetitle:hover,
+a.contentpagetitle:active,
+a.contentpagetitle:focus { font-weight:normal; }
+
+th { font-weight:normal; padding:5px 0; text-align:left; }
+td { font-size:100%; padding:6px; }
+
+
+.moduletable_content td { padding:0; }
+
+.buttonheading span:hover { border-color: #999; }
+
+.article-meta a:hover.comments { }
+/* tooltips */
+.tool-tip { background:#fff; padding:5px; border:1px solid #e5e5e5; }
+.tool-title { background:#9a0005; color:#fff; font-weight:bold; padding:3px 6px; text-transform:uppercase; }
+.tool-text { padding:3px; }
+label.hasTip { margin-left:5px; }
+/* images */
+
+.sectiontableentry0:hover,
+.sectiontableentry1:hover,
+.sectiontableentry2:hover { background: #FDFCF1; }
+.pollstableborder td:first-child,
+.sectiontableentry td:first-child,
+.sectiontableentry0 td:first-child,
+.sectiontableentry1 td:first-child,
+
+/* pagination */
+ul.pagination { margin:10px 0 0 0; padding:3px 0; width:auto; text-align: center }
+ul.pagination li { display:inline-block; margin:2px 5px; overflow:hidden; color: #999; background: #fff; cursor:pointer; border: 1px solid #d7d7d7; font-weight: bold; font-size:85%; padding:0; }
+ul.pagination li span,
+ul.pagination li a { display:inline-block; width:auto; height:24px; line-height:24px; padding:0 10px; }
+ul.pagination li:hover { background:#46660b; color:#fff; border:1px solid #577b15; }
+ul.pagination li:hover a { text-decoration:none; color:#fff; }
+
+div.back_button a,
+div.back_button a:hover,
+div.back_button a:active { display:block; margin:10px 0; }
+/* messages */
+
+.results h4 a:hover {color: #373636}
+
+
+/* mod_search */
+.mod_login .button { margin: 0 0 6px 0;}
+.mod_login p { margin-bottom: 9px; overflow: hidden; }
+
+.mod_login input[type=submit] { float: right; }
+.mod_login span.modlgn_passwd,
+.mod_login span.modlgn_username { width: 70%; float: right; }
+.mod_login span.modlgn_passwd input,
+.mod_login span.modlgn_username input { width: 91%; }
+
+.mod_login label[for=modlgn_passwd],
+.mod_login label[for=modlgn_username] { width: 29%; float:left; line-height: 28px; font-size: 11px; }
+.mod_search { height: 32px; padding-left: 38px; background: transparent url('../images/search_logo.png') no-repeat 0 0; }
+.mod_login ul.user-links { background: #f9f9f9; border-top: 1px solid #d9d9d9; padding:7px 10px; }
+.mod_login ul.user-links a { font-size: 11px; color: #777 }
+.mod_login ul.user-links a:hover { color: #292929 }
+.mod_login ul.user-links li { color: #ccc; line-height: 125%; margin-left: 6px;list-style: inside }
+#mod_search_button { height: 26px!important; width: 26px; border: 1px solid #ababab; background: transparent url('../images/style1/search_btn.png') no-repeat center -28px; float: right; margin-top: 2px; text-indent:-999em; display: block; padding:0!important; }
+#mod_search_button:hover { background-position: center top; border: 1px solid #4660a1; }
+#mod_search_searchword { background:#fff; height: 26px; width: 132px; border:1px solid #9b9b9b; border-bottom:1px solid #d8d8d8; border-right:1px solid #d8d8d8; color:#383838; padding:0 5px; margin-top:2px; }

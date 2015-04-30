@@ -1,0 +1,53 @@
+#vm_bottom_line{
+height:5px;
+margin-top:10px;
+background-color:#6d6e71;}
+#vm_bottom_bt{
+background: transparent url('../images/vm_bottom_bg.png');
+padding:20px;
+padding-bottom:12px;
+margin-top:-10px;}
+
+#vm_bottom_bt .vm div { float:right;
+margin-left:10px;
+line-height:18px;}
+
+#vm_bottom_bt .vm{ width:360px; text-align:right;}
+#vm_bottom_bt .vm a {
+
+color:#FFFFFF;
+}
+
+#vm_bottom{
+background-color:#a59999;
+	}
+#vm_bottom .lap{ width:350px;}
+#vm_bottom > div { width:910px; margin:auto; padding-top:20px; padding-bottom:20px;}
+
+#vm_bottom .adres {
+font-size:16px;
+color:#FFFFFF;
+}
+
+#vm_bottom .phone{ font-size:25px; color:#FFFFFF;
+line-height:30px;}
+
+#vm_bottom .bt_menu{
+}
+
+.bottom_cat_menu1{
+	text-align: center;
+}
+
+.bottom_cat_menu a {
+padding-left:10px;
+padding-right:10px;
+line-height:24px;}
+
+.bottom_cat_menu a{
+	color:#CCCCCC;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.bottom_cat_menu a:hover{color:#FFFFFF;}

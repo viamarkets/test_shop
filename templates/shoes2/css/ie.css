@@ -1,0 +1,88 @@
+/*
+#------------------------------------------------------------------------
+# yourshop.com - November 2010 (for Joomla 1.5)
+#
+# Copyright (C) 2007-2010 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com   
+#------------------------------------------------------------------------ 
+# Based on T3 Framework
+#------------------------------------------------------------------------
+# Copyright (C) 2004-2009 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - GNU/GPL, http://www.gnu.org/copyleft/gpl.html
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites: http://www.joomlart.com - http://www.joomlancers.com
+#------------------------------------------------------------------------
+*/
+
+#gk-left .gk-l2 .gk-left1, #gk-left .gk-l2 .gk-left2,
+#gk-right .gk-r2 .gk-right1, #gk-right .gk-r2 .gk-right2 { width: 49.99%; }
+#gk-left .gk-l2 .gk-left2, #gk-right .gk-r2 .gk-right2 { float: right; }
+.cols2 .article_column { width: 49.99%; }
+.cols3 .article_column { width: 33.3%; }
+.cols4 .article_column { width: 24.99%; }
+.cols5 .article_column { width: 19.99%; }
+
+.blog-columns,
+.k2Container{zoom:1;}
+.k2Container,
+.itemComments,
+.itemCommentsForm{overflow:hidden;}
+.itemBackToTop{float:right!important;width:auto!important;}
+
+.itemNavigation{clear:both;}
+
+div.clr{height:1px!important;}
+
+.moduletable h3,
+.moduletable_menu h3,
+.moduletable_text h3 { position: relative; }
+
+input[type=radio],
+input[type=checkbox] { background: none!important; border: none!important; }
+
+ul li a { cursor: pointer!important; }
+
+#gk-header.two-modules #gk-header1 { padding-right: 0!important; }
+#gk-header.two-modules #gk-header1 .moduletable,
+#gk-header.two-modules #gk-header1 .moduletable_text,
+#gk-header.two-modules #gk-header1 .moduletable_menu { margin-right:10px!important; }
+
+.moduletable.login .moduletable_content { padding-bottom: 0!important; }
+
+.moduletable.login #form-login label,
+.moduletable.login #form-login #modlgn_remember { display:block; float:left; }
+
+.moduletable.login #form-login p.password label,
+.moduletable.login #form-login p.username label { height:28px; line-height:28px; }
+.moduletable.login #form-login .user-links { padding-top:2px; }
+.moduletable.login #form-login .buttons { margin-bottom: -7px; }
+
+#mod_search_searchword { display:block; float:left; }
+#mod_search_button { background-position: -5px -30px; }
+
+#gk-cart-btn h2 { left:0; }
+
+input[type="submit"],
+input[type="button"] { border:1px solid transparent!important; background-color:#d1d1d1; height:28px!important; }
+
+.style1 input[type="submit"]:hover,
+.style1 input[type="submit"]:focus,
+.style1 input[type="button"]:hover,
+.style1 input[type="button"]:focus {  border:1px solid transparent!important; background-color:#46660b; height:28px!important; }
+
+.style2 input[type="submit"]:hover,
+.style2 input[type="submit"]:focus,
+.style2 input[type="button"]:hover,
+.style2 input[type="button"]:focus {  border:1px solid transparent!important; background-color:#cb1010; height:28px!important; }
+
+.style3 input[type="submit"]:hover,
+.style3 input[type="submit"]:focus,
+.style3 input[type="button"]:hover,
+.style3 input[type="button"]:focus {  border:1px solid transparent!important; background-color:#00a4da; height:28px!important; }
+
+input[type=text],
+input#modlgn_passwd,
+input#modlgn_username { height:21px!important; padding-top:5px!important; }
+#shop_search_field { float:left!important; }

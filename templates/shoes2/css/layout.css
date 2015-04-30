@@ -1,0 +1,16 @@
+
+.main { max-width:1200px; margin:0 auto; /*position:relative;*/ }
+
+.column {  float:left; }
+.gk-mass { clear:both; margin-bottom:10px; }
+.main .inner { padding:10px; }
+.main .inner.ctop { padding-top:0; }
+.main .inner.cbottom { padding-bottom:0; }
+.main .inner.cleft { padding-left:0; }
+.main .inner.cright { padding-right:0; }
+
+ #gk-main { float:right;/* margin-bottom:20px; */}
+
+#gk-footer { clear:both; }
+
+.gk-box { float:left; overflow:hidden; margin-bottom:10px; }
