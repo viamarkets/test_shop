@@ -1,0 +1,69 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /templates/
+Disallow: /awstats/
+Disallow: /cache/
+Allow: /cache_files/images/
+Disallow: /cache_files/html/
+Disallow: /cache_files/filter-menu/
+Disallow: /fcgi-bin/
+Disallow: /images/
+Disallow: /settings.php
+Disallow: /addfav.php
+Disallow: /cart.php
+Disallow: /city.php
+Disallow: /content.php
+Disallow: /file.php
+Disallow: /filter-list.php
+Disallow: /filter-manu-nc.php
+Disallow: /filter-menu.php
+Disallow: /image.php
+Disallow: /open.php
+Disallow: /pdf.php
+Disallow: /reload.php
+Disallow: /slider.php
+Disallow: /stat.php
+Disallow: /start.php
+Disallow: /test.php
+Sitemap: http://test.viamarkets.com/sitemap.xml 
+Allow:/Tufli-YSL--2/
+Allow:/Tufli-Gabriella--3/
+Allow:/Tufli-Baldinini--4/
+Allow:/Tufli-Marc-by-Marc-Jacobs--6/
+Allow:/kupit-Kostyumy-Kostyum-C39N39C-Costume-National-33/
+Allow:/Tufli-Christian-Louboutin--8/
+Allow:/Kostyum-Best-Connections--15/
+Allow:/kostyum-Nike-REGIONAL-CL-JERSEY-WARM-UP--16/
+Allow:/Sportivnyy-kostyum-Denis-Simachev-asdf/
+Allow:/Tufli-KENZO--49/
+Allow:/Tufli-Attizzare2-t0007/
+Allow:/Tufli-Metropolis--54/
+Allow:/kupit-Obuv-Tufli-zhenskie-MANUFACTURE-D39ESSAI-t0005/
+Allow:/Tufli-Shoes-Womens---129/
+Allow:/Tufli-Miguel-Miratez--130/
+Allow:/Tufli--34Heine34---131/
+Allow:/Tufli1-34Attizzare34-t0001/
+Allow:/Tufli-EKSTRA--433/
+Allow:/kupit-Obuv-Tufli-EKSTRA-Kopiya-23fss/
+Allow:/Tufli-Christian-Louboutin-Kopiya--460/
+Allow:/Tufli-Attizzare-Kopiya--462/
+Allow:/Tufli-Baldinini-Kopiya--463/
+Allow:/Tufli-Gabriella-Kopiya--464/
+Allow:/Plate-test--6689/
+Allow:/kupit-Bryuki-Bryuki-test-muzhskie-kostyumy-1640/
+Allow:/kupit-Obuv-Super-tufli-belissimo-timberland-obuv-1644/
+Allow:/kupit-Platya-Sarafan-34Marina34-11111-legkie-platya-1645/
+Allow:/kupit-BU-tehnika-Torm-kolodki-zad-Mercedes-Sprinter-95--40ATE41-40c-datch-2sht41-40FVR104541-571910JFVR1045/
+Allow:/kupit-Laki-test-1671/
+Allow: /option/open_item/type/414/id/12872/
+Allow:/65-Novosti/
+Allow:/2-O-nas/
+Allow:/1-Dostavka/
+Allow:/3-Dostavka-Usloviya-dostavki/
+Allow:/6-Dostavka-Usloviya-dostavki-Vozdushnym-transportom/
+Allow:/5-Dostavka-Usloviya-dostavki-Nazemnym-transportom/
+Allow:/7-Dostavka-Usloviya-dostavki-Mega---dostavka/
+Allow:/4-Dostavka-Sroki-dostavki/
+Allow:/Dostavka/
+Allow:/Kontakty-Partnery/
+Allow:/Kontakty-ViaMarkets/

@@ -1,0 +1,2 @@
+$tmurl - путь к папке темплаейта
+$smarty -> display ('header/main.tpl'); - вставка хедера
